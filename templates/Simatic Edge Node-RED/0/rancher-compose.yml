@@ -2,7 +2,7 @@
   name: "sim-edge-platform-node-red" # Name of the versioned template of the Catalog Entry
   version: "v0.9.7.21 - build" # Version of the versioned template of the Catalog Entry
   description: "latest node-red build of Siemens." # Description of the versioned template of the Catalog Entry
-  uuid: sim-edge-platform-node-RED # Unique identifier to be used for upgrades. Please see note.
+  uuid: ff641c1c-aeac-4427-9e93-4818b88103a6 # Unique identifier to be used for upgrades. Please see note.
   minimum_rancher_version: v1.1.1 # The minimum version of Rancher that supports the template
   questions: #Used to request user input for configuration options
     - variable: "container_name"
