@@ -8,8 +8,8 @@ services:
      - ${public_port}:1880 
     user: ${app_user}:${app_user}
     volumes:
-     - /home/${app_user}/sim-edge-data/sim-edge-platform-node-red:/home/nodered/node-red-home
-     - /home/${app_user}/.ssh/:/home/nodered/.ssh
+     - /home/${host_user}/sim-edge-data/sim-edge-platform-node-red:/home/nodered/node-red-home
+     - /home/${host_user}/.ssh/:/home/nodered/.ssh
     environment:
      - SIM_EDGE_NODERED_PASS=${app_default_pass}
      - http_proxy=${http_proxy}

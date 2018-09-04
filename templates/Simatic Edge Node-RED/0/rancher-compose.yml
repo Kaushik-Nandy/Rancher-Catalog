@@ -12,9 +12,15 @@
       required: true
       type: "string"
     - variable: "app_user"
-      label: "User"
+      label: "Container User"
       description: "Container User to run Node-RED."
       default: "nodered"
+      required: true
+      type: "string"
+    - variable: "host_user"
+      label: "Host User"
+      description: "Host Machine User to Mount the Volumes."
+      default: "edge"
       required: true
       type: "string"
     - variable: "public_port"
